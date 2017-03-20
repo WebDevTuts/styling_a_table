@@ -46,6 +46,11 @@ table#planets thead th:nth-child(4) { width: 15%; }
 
 table#planets tbody { font-size: .9em; line-height: 15px; }
 table#planets tbody tr { border-top: 1px solid rgba(248, 228,174, .8);  }
+
+table#planets tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, .2);
+}
+
 table#planets tbody td { padding: 12px; }
 table#planets tbody td:first-child {
   text-align: left;
