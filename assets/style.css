@@ -10,10 +10,13 @@ p { margin: 0 0 5px 0; }
 
 
 /* Table Styles */
-
-
-
-
+table#planets {
+  margin: 20px 0 0 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: #000 url(planet.png) no-repeat top center;
+  color: #fff;
+}
 
 
 /* Media Queries */
