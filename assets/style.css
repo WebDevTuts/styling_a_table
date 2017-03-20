@@ -35,7 +35,11 @@ table#planets thead th {
   vertical-align: bottom;
 }
 
-table#planets thead th:nth-child(1) { width: 20%; }
+table#planets thead th:nth-child(1) {
+  width: 20%;
+  text-align: left;
+  padding-left: 20px;
+}
 table#planets thead th:nth-child(2) { width: 30%; }
 table#planets thead th:nth-child(3) { width: 35%; }
 table#planets thead th:nth-child(4) { width: 15%; }
@@ -43,6 +47,12 @@ table#planets thead th:nth-child(4) { width: 15%; }
 table#planets tbody { font-size: .9em; line-height: 15px; }
 table#planets tbody tr { border-top: 1px solid rgba(248, 228,174, .8);  }
 table#planets tbody td { padding: 12px; }
+table#planets tbody td:first-child {
+  text-align: left;
+  padding-left: 20px;
+  font-weight: bold;
+  background-color: rgba(231, 147, 0, .35);
+}
 
 table#planets tfoot { font-size: .8em; }
 table#planets tfoot tr { border-top: 2px solid #e79300; }
