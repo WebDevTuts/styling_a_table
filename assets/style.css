@@ -18,6 +18,23 @@ table#planets {
   color: #fff;
 }
 
+table#planets th, table#planets td {
+  text-align: center;
+}
+
+table#planets thead {
+  font-size: .8em;
+  line-height: 12px;
+  background-color: #e79300;
+  text-transform: uppercase;
+}
+
+table#planets thead th {
+  color: rgba(0,0,0,.7);
+  padding: 8px;
+  vertical-align: bottom;
+}
+
 
 /* Media Queries */
 @media screen and (max-width: 400px) {
