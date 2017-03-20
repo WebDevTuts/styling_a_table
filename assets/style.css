@@ -44,6 +44,17 @@ table#planets tbody { font-size: .9em; line-height: 15px; }
 table#planets tbody tr { border-top: 1px solid rgba(248, 228,174, .8);  }
 table#planets tbody td { padding: 12px; }
 
+table#planets tfoot { font-size: .8em; }
+table#planets tfoot tr { border-top: 2px solid #e79300; }
+table#planets tfoot td {
+  color: rgba(255, 255, 215, .6);
+  text-align: left;
+  line-height: 15px;
+  padding: 15px 20px;
+}
+table#planets tfoot a { color: #f8dcac; text-decoration: none; }
+table#planets tfoot a:hover { color: #fff; text-decoration: underline; }
+
 
 /* Media Queries */
 @media screen and (max-width: 400px) {
