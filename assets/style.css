@@ -40,6 +40,10 @@ table#planets thead th:nth-child(2) { width: 30%; }
 table#planets thead th:nth-child(3) { width: 35%; }
 table#planets thead th:nth-child(4) { width: 15%; }
 
+table#planets tbody { font-size: .9em; line-height: 15px; }
+table#planets tbody tr { border-top: 1px solid rgba(248, 228,174, .8);  }
+table#planets tbody td { padding: 12px; }
+
 
 /* Media Queries */
 @media screen and (max-width: 400px) {
